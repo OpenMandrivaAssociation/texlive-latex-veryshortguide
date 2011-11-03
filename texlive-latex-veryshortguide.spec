@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /info/latex-veryshortguide
+# catalog-date 2009-11-09 22:53:30 +0100
+# catalog-license lppl
+# catalog-version undef
 Name:		texlive-latex-veryshortguide
 Version:	20091109
 Release:	1
@@ -28,6 +34,7 @@ distribution, as PDF.).
 %doc %{_texmfdistdir}/doc/latex/latex-veryshortguide/veryshortguide-imposed.pdf
 %doc %{_texmfdistdir}/doc/latex/latex-veryshortguide/veryshortguide.pdf
 %doc %{_texmfdistdir}/doc/latex/latex-veryshortguide/veryshortguide.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -38,3 +45,5 @@ distribution, as PDF.).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
