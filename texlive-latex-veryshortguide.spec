@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-latex-veryshortguide
 Version:	20091109
-Release:	1
+Release:	2
 Summary:	The Very Short Guide to LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/latex-veryshortguide
