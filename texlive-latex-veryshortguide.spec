@@ -1,12 +1,12 @@
-# revision 15878
+# revision 25084
 # category Package
 # catalog-ctan /info/latex-veryshortguide
-# catalog-date 2009-11-09 22:53:30 +0100
+# catalog-date 2012-01-12 15:07:54 +0100
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-latex-veryshortguide
-Version:	20091109
-Release:	2
+Version:	20120112
+Release:	1
 Summary:	The Very Short Guide to LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/latex-veryshortguide
