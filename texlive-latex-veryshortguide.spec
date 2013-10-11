@@ -1,11 +1,11 @@
-# revision 25084
+# revision 29803
 # category Package
 # catalog-ctan /info/latex-veryshortguide
-# catalog-date 2012-01-12 15:07:54 +0100
+# catalog-date 2013-01-22 18:02:11 +0100
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-latex-veryshortguide
-Version:	20120112
+Version:	20130122
 Release:	1
 Summary:	The Very Short Guide to LaTeX
 Group:		Publishing
@@ -26,12 +26,17 @@ distribution, as PDF.).
 #-----------------------------------------------------------------------
 %files
 %doc %{_texmfdistdir}/doc/latex/latex-veryshortguide/README
-%doc %{_texmfdistdir}/doc/latex/latex-veryshortguide/README.pdf
+%doc %{_texmfdistdir}/doc/latex/latex-veryshortguide/build
+%doc %{_texmfdistdir}/doc/latex/latex-veryshortguide/index.html
 %doc %{_texmfdistdir}/doc/latex/latex-veryshortguide/menno-a.eps
 %doc %{_texmfdistdir}/doc/latex/latex-veryshortguide/menno-a.jpg
 %doc %{_texmfdistdir}/doc/latex/latex-veryshortguide/veryshortguide-imposed.pdf
 %doc %{_texmfdistdir}/doc/latex/latex-veryshortguide/veryshortguide.pdf
 %doc %{_texmfdistdir}/doc/latex/latex-veryshortguide/veryshortguide.tex
+%doc %{_texmfdistdir}/doc/latex/latex-veryshortguide/vsg-1.jpg
+%doc %{_texmfdistdir}/doc/latex/latex-veryshortguide/vsg-2.jpg
+%doc %{_texmfdistdir}/doc/latex/latex-veryshortguide/vsg-3.jpg
+%doc %{_texmfdistdir}/doc/latex/latex-veryshortguide/vsg-4.jpg
 
 #-----------------------------------------------------------------------
 %prep
@@ -42,21 +47,3 @@ distribution, as PDF.).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Thu Jan 19 2012 Paulo Andrade <pcpa@mandriva.com.br> 20120112-1
-+ Revision: 762660
-- Update to latest upstream package
-
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20091109-2
-+ Revision: 753203
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20091109-1
-+ Revision: 718830
-- texlive-latex-veryshortguide
-- texlive-latex-veryshortguide
-- texlive-latex-veryshortguide
-- texlive-latex-veryshortguide
-
