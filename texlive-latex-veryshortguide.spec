@@ -1,12 +1,6 @@
-# revision 29803
-# category Package
-# catalog-ctan /info/latex-veryshortguide
-# catalog-date 2013-01-22 18:02:11 +0100
-# catalog-license lppl
-# catalog-version undef
 Name:		texlive-latex-veryshortguide
-Version:	20130122
-Release:	9
+Version:	20170414
+Release:	1
 Summary:	The Very Short Guide to LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/latex-veryshortguide
@@ -25,18 +19,7 @@ distribution, as PDF.).
 
 #-----------------------------------------------------------------------
 %files
-%doc %{_texmfdistdir}/doc/latex/latex-veryshortguide/README
-%doc %{_texmfdistdir}/doc/latex/latex-veryshortguide/build
-%doc %{_texmfdistdir}/doc/latex/latex-veryshortguide/index.html
-%doc %{_texmfdistdir}/doc/latex/latex-veryshortguide/menno-a.eps
-%doc %{_texmfdistdir}/doc/latex/latex-veryshortguide/menno-a.jpg
-%doc %{_texmfdistdir}/doc/latex/latex-veryshortguide/veryshortguide-imposed.pdf
-%doc %{_texmfdistdir}/doc/latex/latex-veryshortguide/veryshortguide.pdf
-%doc %{_texmfdistdir}/doc/latex/latex-veryshortguide/veryshortguide.tex
-%doc %{_texmfdistdir}/doc/latex/latex-veryshortguide/vsg-1.jpg
-%doc %{_texmfdistdir}/doc/latex/latex-veryshortguide/vsg-2.jpg
-%doc %{_texmfdistdir}/doc/latex/latex-veryshortguide/vsg-3.jpg
-%doc %{_texmfdistdir}/doc/latex/latex-veryshortguide/vsg-4.jpg
+%doc %{_texmfdistdir}/doc/latex/latex-veryshortguide
 
 #-----------------------------------------------------------------------
 %prep
