@@ -1,5 +1,5 @@
 Name:		texlive-latex-veryshortguide
-Version:	20170414
+Version:	20180303
 Release:	1
 Summary:	The Very Short Guide to LaTeX
 Group:		Publishing
