@@ -1,6 +1,6 @@
 Name:		texlive-latex-veryshortguide
-Version:	20180303
-Release:	2
+Version:	20190228
+Release:	1
 Summary:	The Very Short Guide to LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/latex-veryshortguide
