@@ -3,7 +3,7 @@ Version:	55228
 Release:	2
 Summary:	The Very Short Guide to LaTeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/info/latex-veryshortguide
+URL:		https://www.ctan.org/tex-archive/info/latex-veryshortguide
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/latex-veryshortguide.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/latex-veryshortguide.doc.r%{version}.tar.xz
